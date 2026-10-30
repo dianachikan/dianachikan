@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1440">
+  <title>Стена — Диана Чикан</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <style>
+    body {
+      width: 1440px;
+      margin: 0 auto;
+      background:
+        radial-gradient(1200px 700px at 50% 18%, #241c1a 0%, #141210 62%);
+      color: var(--night-text);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 34px 96px 0;
+      font-size: 15px;
+      color: #f0d5dc;
+    }
+
+    header nav { display: flex; gap: 26px; }
+
+    header a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(240, 213, 220, 0.7);
+      padding-bottom: 1px;
+    }
+
+    .painting {
+      width: 1120px;
+      margin: 28px auto 0;
+      padding: 34px 36px 26px;
+      background: var(--pink);
+      box-shadow:
+        0 40px 80px rgba(0, 0, 0, 0.45),
+        0 2px 0 rgba(255, 255, 255, 0.35) inset;
+    }
+
+    .painting img { width: 100%; height: auto; }
+
+    .sign {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 1120px;
+      margin: 22px auto 0;
+      color: var(--blush);
+    }
+
+    .sign em {
+      font-family: "Literata", serif;
+      font-style: italic;
+      font-weight: 520;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    .sign span {
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--night-soft);
+    }
+
+    .trio {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 42px;
+      width: 1120px;
+      margin: 36px auto 0;
+      padding-top: 28px;
+      border-top: 1px solid rgba(246, 236, 232, 0.18);
+    }
+
+    article .when {
+      margin: 0;
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #e7c99a;
+    }
+
+    article h2 {
+      margin: 12px 0 0;
+      font-family: "Literata", serif;
+      font-weight: 560;
+      font-size: 30px;
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+      color: #fffaf8;
+    }
+
+    article .role {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: var(--night-soft);
+    }
+
+    article .text {
+      margin: 14px 0 0;
+      font-size: 15px;
+      line-height: 1.45;
+      color: #e6d9d4;
+    }
+
+    article .proof {
+      margin: 14px 0 0;
+      padding-top: 12px;
+      border-top: 1px solid rgba(246, 236, 232, 0.16);
+      font-family: "Literata", serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.35;
+      color: #f0c2cc;
+    }
+
+    footer {
+      width: 1120px;
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    footer p {
+      margin: 0;
+      font-family: "Literata", serif;
+      font-style: italic;
+      font-weight: 520;
+      font-size: 32px;
+      letter-spacing: -0.02em;
+      color: #f7f1ea;
+    }
+
+    footer .skills {
+      margin-top: 14px;
+      font-family: "Golos Text", sans-serif;
+      font-style: normal;
+      font-weight: 450;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      color: var(--night-soft);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>hello, my name is</span>
+    <nav>
+      <a href="https://t.me/dyanatort">telegram</a>
+      <a href="mailto:dianachikan@yandex.ru">почта</a>
+    </nav>
+  </header>
+
+  <figure class="painting">
+    <img src="assets/mark.png" alt="Diana Chikan">
+  </figure>
+
+  <p class="sign">
+    <em>and I’m a product designer</em>
+    <span>24 года · Москва · 3+ года</span>
+  </p>
+
+  <section class="trio">
+    <article>
+      <p class="when">апрель 2024 — сейчас</p>
+      <h2>Моделирование и&nbsp;цифровые двойники</h2>
+      <p class="role">Продуктовый дизайнер · B2B SaaS / B2E</p>
+      <p class="text">Цифровизация производства. Web и&nbsp;планшет: роли, таблицы, дашборды, управление задачами.</p>
+      <p class="proof">Пересобрала архитектуру. Прототипы в&nbsp;продажах: 2&nbsp;контракта, 4&nbsp;производства в&nbsp;демо.</p>
+    </article>
+    <article>
+      <p class="when">июнь — ноябрь 2023</p>
+      <h2>Startech. Base</h2>
+      <p class="role">Продуктовый дизайнер · B2C</p>
+      <p class="text">Платформа стартапов и&nbsp;инвесторов. Единственный дизайнер, фуллтайм, этап пост-MVP.</p>
+      <p class="proof">Проще сценарии двух сегментов. Ниже порог входа. Продукт готов к&nbsp;масштабу.</p>
+    </article>
+    <article>
+      <p class="when">сен 2022 — апр 2024</p>
+      <h2>Early-stage стартапы</h2>
+      <p class="role">Продуктовый дизайнер · B2C · MVP</p>
+      <p class="text">Ранние продукты вместе с&nbsp;фаундерами: требования, сценарии, прототипы, запуск.</p>
+      <p class="proof">Собрала архитектуру и&nbsp;довела интерфейсы до&nbsp;MVP — с&nbsp;основой для роста.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>Люблю создавать, развивать и&nbsp;улучшать.</p>
+    <p class="skills">Web &amp; mobile · B2B и B2E · B2C · Дизайн-системы · SaaS · Исследования</p>
+  </footer>
+</body>
+</html>

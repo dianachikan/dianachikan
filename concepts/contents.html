@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1440">
+  <title>Оглавление — Диана Чикан</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <style>
+    body {
+      width: 1440px;
+      margin: 0 auto;
+      background: var(--pink);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 28px 72px 0;
+      font-size: 15px;
+    }
+
+    header nav { display: flex; gap: 26px; }
+
+    header a {
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 1px;
+    }
+
+    .mast {
+      width: calc(100% - 120px);
+      margin: 18px 60px 0;
+      height: auto;
+    }
+
+    .under {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 24px;
+      margin: 6px 72px 0;
+    }
+
+    .under em {
+      font-family: "Literata", serif;
+      font-style: italic;
+      font-weight: 520;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    .under span {
+      font-size: 15px;
+      color: var(--ink-soft);
+    }
+
+    .sheet {
+      position: relative;
+      margin: 28px 48px 48px;
+      padding: 8px 36px 22px;
+      background: var(--paper);
+      box-shadow: 0 24px 60px rgba(70, 24, 40, 0.08);
+    }
+
+    .sheet::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("assets/noise.png");
+      opacity: 0.18;
+      mix-blend-mode: multiply;
+      pointer-events: none;
+    }
+
+    .bio {
+      position: relative;
+      margin: 0;
+      padding: 28px 12px 8px;
+      max-width: 28em;
+      font-family: "Literata", serif;
+      font-weight: 520;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    ol {
+      position: relative;
+      list-style: none;
+      margin: 18px 0 0;
+      padding: 0;
+    }
+
+    li {
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      gap: 8px;
+      padding: 26px 12px 28px;
+      border-top: 1px solid rgba(18, 53, 44, 0.16);
+    }
+
+    .n {
+      padding-top: 10px;
+      font-family: "Unbounded", sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      color: var(--orange);
+    }
+
+    .top {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: baseline;
+    }
+
+    h2 {
+      margin: 0;
+      font-family: "Literata", serif;
+      font-weight: 580;
+      font-size: 40px;
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+    }
+
+    time {
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      color: var(--ink-soft);
+      white-space: nowrap;
+    }
+
+    .role {
+      margin: 8px 0 0;
+      font-size: 15px;
+    }
+
+    .desc {
+      margin: 8px 0 0;
+      max-width: 46em;
+      font-size: 16.5px;
+      line-height: 1.45;
+      color: #245046;
+    }
+
+    .proof {
+      margin: 10px 0 0;
+      max-width: 42em;
+      font-family: "Literata", serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.35;
+      color: #8c3424;
+    }
+
+    .skills {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      margin: 0;
+      padding: 18px 12px 10px;
+      border-top: 1px solid rgba(18, 53, 44, 0.16);
+      font-size: 14px;
+      letter-spacing: 0.01em;
+      color: var(--ink-soft);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>диана чикан</span>
+    <nav>
+      <a href="https://t.me/dyanatort">telegram</a>
+      <a href="mailto:dianachikan@yandex.ru">почта</a>
+    </nav>
+  </header>
+
+  <img class="mast" src="assets/mark.png" alt="Diana Chikan">
+
+  <p class="under">
+    <em>and I’m a product designer</em>
+    <span>24 года · Москва · 3+ года опыта</span>
+  </p>
+
+  <section class="sheet">
+    <p class="bio">Проектирую сложные B2B-системы. Люблю создавать, развивать и&nbsp;улучшать.</p>
+    <ol>
+      <li>
+        <span class="n">01</span>
+        <div>
+          <div class="top">
+            <h2>Моделирование и&nbsp;цифровые двойники</h2>
+            <time>апрель 2024 — сейчас</time>
+          </div>
+          <p class="role">Продуктовый дизайнер · АО · B2B SaaS / B2E</p>
+          <p class="desc">Цифровизация производства, web и&nbsp;планшет. Роли, таблицы, дашборды, управление задачами — в&nbsp;кросс-функциональной команде.</p>
+          <p class="proof">Пересобрала архитектуру — системой стало проще пользоваться. Прототипы использовались в&nbsp;продажах: 2&nbsp;контракта и&nbsp;4&nbsp;производства в&nbsp;демо.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">02</span>
+        <div>
+          <div class="top">
+            <h2>Startech. Base</h2>
+            <time>июнь — ноябрь 2023</time>
+          </div>
+          <p class="role">Продуктовый дизайнер · B2C · единственный в&nbsp;команде</p>
+          <p class="desc">Платформа для стартапов и&nbsp;инвесторов. Фуллтайм, этап пост-MVP: аудит, новые разделы, личный кабинет, онбординг, уведомления, библиотека компонентов.</p>
+          <p class="proof">Упростила сценарии двух сегментов и&nbsp;снизила порог входа — переработала анкету стартапа. Продукт подготовлен к&nbsp;масштабу.</p>
+        </div>
+      </li>
+      <li>
+        <span class="n">03</span>
+        <div>
+          <div class="top">
+            <h2>Early-stage стартапы</h2>
+            <time>сентябрь 2022 — апрель 2024</time>
+          </div>
+          <p class="role">Продуктовый дизайнер · B2C · MVP</p>
+          <p class="desc">Цифровые продукты на&nbsp;ранней стадии. С&nbsp;фаундерами: требования, сценарии, прототипы, базовый UI&#8209;kit и&nbsp;передача в&nbsp;разработку.</p>
+          <p class="proof">Собрала сценарии и&nbsp;архитектуру, довела интерфейсы до&nbsp;запуска и&nbsp;оставила основу, на&nbsp;которой продукт можно растить.</p>
+        </div>
+      </li>
+    </ol>
+    <p class="skills">
+      <span>Web &amp; mobile</span>
+      <span>B2B и B2E</span>
+      <span>B2C</span>
+      <span>Дизайн-системы</span>
+      <span>SaaS</span>
+      <span>Исследования</span>
+    </p>
+  </section>
+</body>
+</html>
