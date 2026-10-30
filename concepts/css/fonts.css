@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Golos Text";
+  src: url("../fonts/GolosText-Variable.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/Literata-Variable.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/Literata-Italic-Variable.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("../fonts/Unbounded-Variable.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  --pink: #fee3ea;
+  --ink: #12352c;
+  --ink-soft: #4d675f;
+  --sand: #f6e3c4;
+  --sand-deep: #e7c99a;
+  --sky: #e4eef8;
+  --orange: #f24c1c;
+  --cream: #fffaf6;
+  --paper: #fbf6f1;
+  --blush: #f0b0c0;
+  --night: #141210;
+  --night-text: #f6ece8;
+  --night-soft: #cbbfb8;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 450;
+  color: var(--ink);
+  background: var(--pink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: inherit; }
+
+::selection {
+  background: var(--orange);
+  color: white;
+}
